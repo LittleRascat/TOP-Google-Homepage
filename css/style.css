@@ -32,3 +32,42 @@ a {
   color: white;
   border: none;
 }
+
+button {
+  cursor: pointer;
+}
+
+#content {
+  display: block;
+  text-align: center;
+  margin: 150px;
+}
+
+#search-box {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #bec4ca;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.search {
+  background-color: #f8f9fa;
+  border: 1px solid white;
+  box-shadow: 0px;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.search:hover {
+  animation-name: border-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes border-color {
+  0% {border-color: #3c4043}
+  100% {border-color: #3c4043;}
+}
+
