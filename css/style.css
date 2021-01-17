@@ -6,6 +6,7 @@ header {
 
 a {
   padding-left: 15px;
+  padding-right: 15px;
   text-decoration: none;
   color: black;
   font-family: arial, sans-serif;
@@ -16,7 +17,7 @@ a {
   width: 30px;
   height: 30px;
   border: none;
-  background-color: white;
+  background: white;
 }
 
 #bento {
@@ -28,7 +29,7 @@ a {
 
 #sign-in {
   padding: 4px 14px;
-  background-color: #4285f4;
+  background: #4285f4;
   color: white;
   border: none;
 }
@@ -52,7 +53,7 @@ button {
 }
 
 .search {
-  background-color: #f8f9fa;
+  background: #f8f9fa;
   border: 1px solid white;
   box-shadow: 0px;
   margin: 20px;
@@ -71,3 +72,19 @@ button {
   100% {border-color: #3c4043;}
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  padding-right: 25px;
+  font-size: 14px;
+  color: #70757a;
+  background: #f2f2f2;
+}
+
+#leaf {
+  height: 14px;
